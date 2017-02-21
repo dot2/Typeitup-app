@@ -1,0 +1,32 @@
+<template name="index">
+
+    <div class="wrapper">
+
+        <div class="greeting align-vert">
+            <img src="../images/logo.png" alt="" />
+            <!-- <p>
+                Type It Up is the place to get all of your hand written notes turned
+                <em>digital!</em> Let our typist turn your hand written notes into accessible,
+                organized, typed documents.
+            </p> -->
+
+            <div class="login-container">
+              {{> login}}
+            </div>
+
+            <!-- temporary change for app store, will need to change it back -->
+            <!-- <p>
+                <div class="btn-group align-vert">
+                    <a class="btn btn-success btn-lg" href="{{pathFor 'login'}}" role="button">
+                        Login
+                    </a>
+                    <a class="btn btn-info btn-sm" href="{{pathFor 'signup'}}" role="button">
+                        Sign Up
+                    </a>
+                </div>
+            </p> -->
+        </div>
+
+    </div>
+
+</template>

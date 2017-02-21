@@ -1,0 +1,54 @@
+<template name="expressCheckout">
+  <div class="row">
+  <div class="col-xs-12 col-md-6">
+    <h4 class="page-header" style="margin-top: 0 !important;">Select the turn around time you need.</h4>
+    {{#unless processing}}
+      <!-- <p class="alert alert-info">We offer the following packages:</p> -->
+
+      <!-- <div class="extra-pages-wrapper align-horz">
+        <div class="card pricing-card align-vert">
+          <p class="pull-left align-vert">1 Page <strong>$1.35</strong></p>
+          <a href="#" data-service="1-page" class="btn btn-success pull-right">Buy Now</a>
+        </div>
+        <div class="card pricing-card align-vert">
+          <p class="pull-left align-vert">2 Pages <strong>$2.70</strong></p>
+          <a href="#" data-service="2-page" class="btn btn-success pull-right">Buy Now</a>
+        </div>
+      </div> -->
+
+      <ul class="list-group price-list">
+        <li class="list-group-item clearfix">
+          <p class="pull-left"><strong>$2.00</strong> &mdash; 6 Day</p>
+          <a href="#" data-service="6-day" class="btn btn-success pull-right">Buy Now</a>
+        </li>
+        <li class="list-group-item clearfix">
+          <p class="pull-left"><strong>$4.00</strong> &mdash; 5 Day</p>
+          <a href="#" data-service="5-day" class="btn btn-success pull-right">Buy Now</a>
+        </li>
+        <li class="list-group-item clearfix">
+          <p class="pull-left"><strong>$6.00</strong> &mdash; 4 Day</p>
+          <a href="#" data-service="4-day" class="btn btn-success pull-right">Buy Now</a>
+        </li>
+        <li class="list-group-item clearfix">
+          <p class="pull-left"><strong>$14.00</strong> &mdash; 3 Day</p>
+          <a href="#" data-service="3-day" class="btn btn-success pull-right">Buy Now</a>
+        </li>
+        <li class="list-group-item clearfix">
+          <p class="pull-left"><strong>$17.00</strong> &mdash; 2 Day</p>
+          <a href="#" data-service="2-day" class="btn btn-success pull-right">Buy Now</a>
+        </li>
+        <li class="list-group-item clearfix">
+          <p class="pull-left"><strong>$20.00</strong> &mdash; 1 Day</p>
+          <a href="#" data-service="1-day" class="btn btn-success pull-right">Buy Now</a>
+        </li>
+
+      </ul>
+
+      <!-- <p class="alert alert-warning">To demo, use any email address along with the card number <strong>4242 4242 4242 4242</strong>, any <em>future</em> expiration date, and any 3 digit security code (e.g 555)</p> -->
+    {{else}}
+      <p class="alert alert-warning"><i class="fa fa-refresh fa-spin"></i> Processing payment...</p>
+    {{/unless}}
+  </div>
+  {{>bottomMenu}}
+</div>
+</template>

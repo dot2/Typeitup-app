@@ -1,0 +1,88 @@
+<template name="uploadSection">
+  {{>backHeader}}
+  <div class="row">
+  <div class="wrapper">
+    <div class="col-xs-12 col-md-6" style="margin-bottom: 20%;">
+      <h4 class="page-header" style="margin-top: 0 !important;">Select the amount of pages you need.</h4>
+      {{#unless processing}}
+        <!-- <p class="alert alert-info">We offer the following packages:</p> -->
+
+        <!-- <div class="extra-pages-wrapper align-horz">
+          <div class="card pricing-card align-vert">
+            <p class="pull-left align-vert">1 Page <strong>$1.35</strong></p>
+            <a href="#" data-service="1-page" class="btn btn-success pull-right">Buy Now</a>
+          </div>
+          <div class="card pricing-card align-vert">
+            <p class="pull-left align-vert">2 Pages <strong>$2.70</strong></p>
+            <a href="#" data-service="2-page" class="btn btn-success pull-right">Buy Now</a>
+          </div>
+        </div> -->
+
+        <ul class="list-group price-list">
+          <li class="list-group-item clearfix">
+            <p class="pull-left"><strong>$1.35</strong> &mdash; 1 Page</p>
+            <a href="#" data-service="1-page" class="btn btn-success pull-right">Buy Now</a>
+          </li>
+          <li class="list-group-item clearfix">
+            <p class="pull-left"><strong>$2.70</strong> &mdash; 2 Page</p>
+            <a href="#" data-service="2-page" class="btn btn-success pull-right">Buy Now</a>
+          </li>
+          <li class="list-group-item clearfix">
+            <p class="pull-left"><strong>$4.05</strong> &mdash; 3 Page</p>
+            <a href="#" data-service="3-page" class="btn btn-success pull-right">Buy Now</a>
+          </li>
+          <li class="list-group-item clearfix">
+            <p class="pull-left"><strong>$5.40</strong> &mdash; 4 Page</p>
+            <a href="#" data-service="4-page" class="btn btn-success pull-right">Buy Now</a>
+          </li>
+          <li class="list-group-item clearfix">
+            <p class="pull-left"><strong>$6.75</strong> &mdash; 5 Page</p>
+            <a href="#" data-service="5-page" class="btn btn-success pull-right">Buy Now</a>
+          </li>
+          <li class="list-group-item clearfix">
+            <p class="pull-left"><strong>$8.10</strong> &mdash; 6 Page</p>
+            <a href="#" data-service="6-page" class="btn btn-success pull-right">Buy Now</a>
+          </li>
+          <li class="list-group-item clearfix">
+            <p class="pull-left"><strong>$9.45</strong> &mdash; 7 Page</p>
+            <a href="#" data-service="7-page" class="btn btn-success pull-right">Buy Now</a>
+          </li>
+          <li class="list-group-item clearfix">
+            <p class="pull-left"><strong>$10.80</strong> &mdash; 8 Page</p>
+            <a href="#" data-service="8-page" class="btn btn-success pull-right">Buy Now</a>
+          </li>
+          <li class="list-group-item clearfix">
+            <p class="pull-left"><strong>$12.15</strong> &mdash; 9 Page</p>
+            <a href="#" data-service="9-page" class="btn btn-success pull-right">Buy Now</a>
+          </li>
+          <li class="list-group-item clearfix">
+            <p class="pull-left"><strong>$13.50</strong> &mdash; 10 Page</p>
+            <a href="#" data-service="10-page" class="btn btn-success pull-right">Buy Now</a>
+          </li>
+          <li class="list-group-item clearfix">
+            <p class="pull-left"><strong>$14.85</strong> &mdash; 11 Page</p>
+            <a href="#" data-service="11-page" class="btn btn-success pull-right">Buy Now</a>
+          </li>
+          <li class="list-group-item clearfix">
+            <p class="pull-left"><strong>$16.20</strong> &mdash; 12 Page</p>
+            <a href="#" data-service="12-page" class="btn btn-success pull-right">Buy Now</a>
+          </li>
+          <li class="list-group-item clearfix">
+            <p class="pull-left"><strong>$17.55</strong> &mdash; 13 Page</p>
+            <a href="#" data-service="13-page" class="btn btn-success pull-right">Buy Now</a>
+          </li>
+          <li class="list-group-item clearfix">
+            <p class="pull-left"><strong>$18.90</strong> &mdash; 14 Page</p>
+            <a href="#" data-service="14-page" class="btn btn-success pull-right">Buy Now</a>
+          </li>
+
+        </ul>
+
+        <!-- <p class="alert alert-warning">To demo, use any email address along with the card number <strong>4242 4242 4242 4242</strong>, any <em>future</em> expiration date, and any 3 digit security code (e.g 555)</p> -->
+      {{else}}
+        <p class="alert alert-warning"><i class="fa fa-refresh fa-spin"></i> Processing payment...</p>
+      {{/unless}}
+    </div>
+  </div>
+</div>
+</template>

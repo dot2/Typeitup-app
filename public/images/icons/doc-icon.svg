@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="18px" viewBox="0 0 15 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>red-doc-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="red-doc-icon" transform="translate(-3.000000, -2.000000)">
+            <g id="doc-icon-copy">
+                <g id="Page-1">
+                    <g id="doc-icon-copy" transform="translate(0.010063, 0.291082)">
+                        <g id="Group" transform="translate(0.000000, -0.000000)">
+                            <polygon id="Shape" transform="translate(10.327869, 10.327869) rotate(-45.000000) translate(-10.327869, -10.327869) " points="7.33839219e-15 1.92632795e-14 20.6557377 1.92632795e-14 20.6557377 20.6557377 7.33839219e-15 20.6557377"></polygon>
+                            <path d="M12.0491803,1.72131148 L5.16393443,1.72131148 C4.21721311,1.72131148 3.45122951,2.49590164 3.45122951,3.44262295 L3.44262295,17.2131148 C3.44262295,18.1598361 4.20860656,18.9344262 5.15532787,18.9344262 L15.4918033,18.9344262 C16.4385246,18.9344262 17.2131148,18.1598361 17.2131148,17.2131148 L17.2131148,6.8852459 L12.0491803,1.72131148 Z M13.7704918,15.4918033 L6.8852459,15.4918033 L6.8852459,13.7704918 L13.7704918,13.7704918 L13.7704918,15.4918033 Z M13.7704918,12.0491803 L6.8852459,12.0491803 L6.8852459,10.3278689 L13.7704918,10.3278689 L13.7704918,12.0491803 Z M11.1885246,7.74590164 L11.1885246,3.01229508 L15.9221311,7.74590164 L11.1885246,7.74590164 Z" id="Shape" fill="#E72237" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

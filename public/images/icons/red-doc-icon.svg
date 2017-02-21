@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="60px" viewBox="0 0 62 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>doc-icon copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="doc-icon-copy" transform="translate(35.740307, 29.648453) rotate(20.000000) translate(-35.740307, -29.648453) translate(2.240307, -0.351547)">
+            <g id="Group" transform="translate(0.000000, -0.000000)">
+                <polygon id="Shape" points="7 4.97379915e-14 67 4.97379915e-14 67 60 7 60"></polygon>
+                <path d="M42,5 L22,5 C19.25,5 17.025,7.25 17.025,10 L17,50 C17,52.75 19.225,55 21.975,55 L52,55 C54.75,55 57,52.75 57,50 L57,20 L42,5 Z M47,45 L27,45 L27,40 L47,40 L47,45 Z M47,35 L27,35 L27,30 L47,30 L47,35 Z M39.5,22.5 L39.5,8.75 L53.25,22.5 L39.5,22.5 Z" id="Shape" fill="#E72237" fill-rule="nonzero"></path>
+                <rect id="Rectangle-3" fill="#E72237" x="-1.13686838e-13" y="10" width="30" height="5" rx="2.5"></rect>
+                <rect id="Rectangle-3-Copy" fill="#FFFFFF" x="8" y="18" width="30" height="5" rx="2.5"></rect>
+                <rect id="Rectangle-3-Copy-4" fill="#FFFFFF" x="4" y="35" width="22" height="5" rx="2.5"></rect>
+                <rect id="Rectangle-3-Copy-2" fill="#E72237" x="3" y="45" width="30" height="5" rx="2.5"></rect>
+                <rect id="Rectangle-3-Copy-3" fill="#E72237" x="9" y="24" width="17" height="5" rx="2.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="34px" viewBox="0 0 50 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_computer_black_24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_computer_black_24px" transform="translate(0.000000, -8.000000)">
+            <g id="Group">
+                <polygon id="Shape" points="0 0 50 0 50 50 0 50"></polygon>
+                <path d="M41.6666667,37.5 C43.9583333,37.5 45.8125,35.625 45.8125,33.3333333 L45.8333333,12.5 C45.8333333,10.2083333 43.9583333,8.33333333 41.6666667,8.33333333 L8.33333333,8.33333333 C6.04166667,8.33333333 4.16666667,10.2083333 4.16666667,12.5 L4.16666667,33.3333333 C4.16666667,35.625 6.04166667,37.5 8.33333333,37.5 L0,37.5 L0,41.6666667 L50,41.6666667 L50,37.5 L41.6666667,37.5 Z M8.33333333,12.5 L41.6666667,12.5 L41.6666667,33.3333333 L8.33333333,33.3333333 L8.33333333,12.5 Z" id="Shape" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

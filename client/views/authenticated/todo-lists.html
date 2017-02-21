@@ -1,0 +1,55 @@
+<template name="todoLists">
+  {{>header}}
+
+    <div class="row">
+      <div class="wrapper">
+
+          <div class="home-page align-vert">
+
+            <h1>Total Donations</h1>
+
+            <div class="donation-amounts align-horz">
+              <div class="donation-amount align-vert">
+                <div class="donation-count align-vert"><span>120</span></div>
+                <div class="donation-text">Notebooks</div>
+              </div>
+              <div class="heart-divider">
+                <img src="../images/icons/heart.svg" alt="">
+              </div>
+              <div class="donation-amount align-vert">
+                <div class="donation-count align-vert"><span>$32,150.17</span></div>
+                <div class="donation-text">Funds</div>
+              </div>
+            </div>
+            <h2>Let's Write Together</h2>
+            <div class="home-image">
+              <!-- <img src="../images/home-img.png" alt="Let's write together"> -->
+            </div>
+            <p>Every time you let us type for you, You give a child in need the ability to write.</p>
+
+
+          </div>
+      {{>bottomMenu}}
+      </div>
+    </div>
+
+
+
+<!-- start of new code for verstion 2 -->
+    <!-- <div style="margin-top: 0px;" class="page-header clearfix">
+    <h3 class="pull-left">Notes</h3>
+    {{#if listsAvailable}}
+      <a href="#" style="margin-top: 15px;" class="btn btn-success pull-right">New Note</a>
+    {{/if}}
+  </div>
+  {{#unless listsAvailable}}
+    <p class="alert alert-warning">Heads up! You've hit your notes limit for your current plan (<strong>{{capitalize plan.subscription.plan.name}} - {{plan.limit}}</strong>). <a href="{{pathFor 'billingPlan'}}">Upgrade Now</a></p>
+  {{/unless}}
+  <div class="list-group">
+    {{#each lists}}
+      <a href="{{pathFor 'todoList'}}" class="list-group-item">{{name}}</a>
+    {{else}}
+     <p class="alert alert-info">You haven't created any notes yet!</p>
+    {{/each}}
+  </div> -->
+</template>

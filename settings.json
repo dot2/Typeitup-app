@@ -1,0 +1,37 @@
+{
+  "public": {
+    "analyticsSettings": {
+      "Google Analytics" : {"trackingId": "UA-90682017-2"}
+    },
+    "plans": [
+      {
+        "name": "standard",
+        "amount": {
+          "cents": 1999,
+          "usd": "$19.99"
+        },
+        "limit": 15,
+        "interval": "month"
+      },
+      {
+        "name": "premium",
+        "amount": {
+          "cents": 3999,
+          "usd": "$39.99"
+        },
+        "limit": 35,
+        "interval": "month"
+      }
+    ],
+    "stripe": {
+      "testPublishableKey": "pk_test_BZHPWc5PT5SdYR60Who9Q1Jz",
+      "livePublishableKey": "pk_live_ryGGiypLejJkt9dBKrQpzlkS"
+    }
+  },
+  "private": {
+    "stripe": {
+      "testSecretKey": "sk_test_wrhyGQP2LbY1qj72Gn6fva2d",
+      "liveSecretKey": "sk_live_oQR0HzEgwLSlUVI6KJsliXTp"
+    }
+  }
+}

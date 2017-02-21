@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="28px" viewBox="0 0 30 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>heart-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="8.06372615%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F6CFC2" offset="0%"></stop>
+            <stop stop-color="#FF2D55" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="heart-icon" fill="url(#linearGradient-1)">
+            <path d="M15,3.10527189 C15.6567716,2.27695924 18.1593873,-0.398444299 22.7927214,0.0503794119 C25.6618291,0.328305316 29.1816755,1.31593605 29.936991,6.93794363 C30.1949518,8.85801243 29.7536443,12.2819525 26.8558025,16.0099797 C22.8808083,21.1237462 16.2050266,26.2946717 15.0816291,27.1496568 L15.0811366,27.2727273 C15.0811366,27.2727273 15.0532888,27.2519297 15,27.2116099 C14.9467112,27.2519297 14.9188634,27.2727273 14.9188634,27.2727273 L14.9183709,27.1496568 C13.7949734,26.2946717 7.11919165,21.1237462 3.14419747,16.0099797 C0.246355677,12.2819525 -0.194951833,8.85801243 0.0630090048,6.93794363 C0.818324535,1.31593605 4.33817094,0.328305316 7.20727864,0.0503794119 C11.8406127,-0.398444299 14.3432284,2.27695924 15,3.10527189 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>
